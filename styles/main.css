@@ -1,0 +1,149 @@
+.weight {
+    font-weight: 500;
+    color: #4F4F4F;
+}
+
+main {
+    background: #F9F9F9;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.nav-panel > .text-decoration {
+    color: #BDBDBD;
+    font-weight: 500;
+} 
+
+.main-nav:not(:first-child)::before {
+    content: "";
+    background-image: url(../image/icons/Ellipse.png);
+    background-repeat: no-repeat;
+    height: 6px;
+    width: 6px;
+    margin-right: 15px;
+}
+
+.main-nav:last-child {
+    margin-right: 0px;
+}
+
+.nav-panel {
+    display: flex;
+}
+
+.back_link {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.back_link > .text-style {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.back::before{
+    content: "";
+    background-image: url(../images/back_link.png);
+    background-repeat: no-repeat;
+    margin-right: 4px;
+    height: 18px;
+    width: 18px;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 20px;
+}
+
+.product-card {
+    padding: 20px 20px 30px 20px;
+    width: 315px;
+    border-radius: 20px;
+    border: 1px solid #F2F2F2;
+    background: #F9F9F9;
+    box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.05),-8px -8px 15px 0px #FFF;
+}
+
+.card-margin {
+    margin-bottom: 25px;
+}
+
+.product-name {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.product-purpose {
+    font-size: 16px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.product-cost {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.product-weight {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-details-buy-cart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.details {
+    text-decoration: none;
+    padding: 12px 32px;
+    background-color: #3FCF5E;
+    border-radius: 10px;
+}
+
+.card-details-buy-cart > .text-decoration {
+    color: #FFF;
+    font-weight: 600;
+}
+
+.buy-icon {
+    padding: 9px 10px 9px 9px;
+    border-radius: 10px;
+    border: 1px solid #BDBDBD;
+    background: #FFF;
+}
+
+.product-weight > button {
+    width: 68px;
+    height: 29px;
+    background-color: #F9F9F9;;
+    border: 0;
+}
+
+.product-weight > button:focus {
+    border-radius: 5px;
+    border: 1px solid #3ECF5E;
+    background-color: #ffffff;
+}

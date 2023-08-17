@@ -1,0 +1,81 @@
+header {
+    padding-top: 33px;
+    padding-bottom: 30px;
+    background-color: #FFFF;
+}
+
+.logo-img {
+    width: 244px;
+    height: 45px;
+}
+
+.buy-icon {
+    width: 35px;
+    height: 38px;
+}
+
+.add-user-icon {
+    width: 30px;
+    height: 31px;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+
+.header-icons:last-child {
+    margin-left: 15px;
+}
+
+.search-text-line {
+    width: 345px;
+    height: 54px;
+    border-radius: 10px;
+    border: 1px solid #BDBDBD;
+    background-color:  #F2F2F2;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #4F4F4F;
+    margin-left: 40px;
+}
+
+.header-navigation {
+    font-size: 0;
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.search-form{
+    margin-left: auto;
+}
+
+.search-text-line::placeholder {
+    color: #828282;
+}
+.search-text-line {
+    background-image: url(../images/search-icon.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: right 20px center; 
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.nav-link:first-child {
+    margin-left: 0px;
+}
+
+.drop-down-menu::after {
+    margin-left: 4px;
+    content: url(../images/arrow-upward-outline-icon.png);
+}
+
